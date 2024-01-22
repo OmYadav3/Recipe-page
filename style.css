@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
+
 *{
 
     margin: 0;
@@ -7,7 +10,7 @@
     box-sizing: border-box;
 }
 
-Body {
+body {
    
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
@@ -28,10 +31,8 @@ Body {
 .main-container {
     margin:  9rem 21.3rem 9rem 21.3rem;
     padding: 4rem ;
-    /* border: 2px solid red; */
     border-radius: 2rem;
     background-color: white;
-    /* color: white !important; */
 }
 
 .main-container h1 {
@@ -119,9 +120,117 @@ Body {
     
 }
 
+.brown2 {
+    color: rgba(111, 13, 13, 0.847);
+    margin-right: 16rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.brown3 {
+    color: rgba(111, 13, 13, 0.847);
+    margin-right: 16rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.brown4 {
+    color: rgba(111, 13, 13, 0.847);
+    margin-right: 16rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
 .flexbox {
     margin: 1rem;
     display: flex;
     justify-content: space-between;
+    
+}
+
+
+
+@media screen and (max-width: 375px) {
+    
+    body {
+        font-size: 15px;
+        margin: 0;
+        padding: 0 ;
+    }
+
+    .main-container {
+       
+        margin: 0;
+        padding: 1.2rem;
+        margin-top: 9rem;
+        border-radius: 0rem;
+        
+    }
+ 
+
+
+    .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        border-radius: 0rem ;
+        
+    }
+
+    
+    .img-container {
+
+        padding: 0rem;
+
+    }
+
+    .flexbox {
+        margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+     
+       
+        
+    }
+
+    .brown {
+        position: relative;
+        left: 8rem;
+
+        color: rgba(111, 13, 13, 0.847);
+        font-size: 1.2rem;
+        font-weight: 700;
+        
+    }
+    .brown2 {
+        position: relative;
+        left: 9.2rem;
+        color: rgba(111, 13, 13, 0.847);
+        font-size: 1.2rem;
+        font-weight: 700;
+        
+    }
+    .brown3 {
+        position: relative;
+        left: 8.6rem;
+        color: rgba(111, 13, 13, 0.847);
+        font-size: 1.2rem;
+        font-weight: 700;
+        
+    }
+    .brown4 {
+        position: relative;
+        left: 10.6rem;
+        color: rgba(111, 13, 13, 0.847);
+        font-size: 1.2rem;
+        font-weight: 700;
+        
+    }
+   
     
 }
